@@ -1,0 +1,12 @@
+# Sum of digits in a given number
+n = int(input('Enter number :'))
+sum = 0
+while n > 0:
+    rem = n % 10
+    sum = sum + rem
+    n = n // 10
+print('Sum of digits of the given number : ',sum)
+
+output:
+Enter number :4253
+Sum of digits of the given number :  14
