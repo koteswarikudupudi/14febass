@@ -1,0 +1,12 @@
+# To print no of digits in a given number
+n = int(input('Enter number : '))
+sum = 0
+while n > 0:
+    rem = n % 10
+    sum += 1
+    n = n // 10
+print('No of digits: ',sum)
+
+output:
+Enter number : 25463
+No of digits:  5
